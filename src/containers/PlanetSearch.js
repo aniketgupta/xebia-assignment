@@ -57,7 +57,7 @@ class PlanetSearch extends Component {
         <header>
           <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
-              <a class="navbar-brand" href="#">Star Wars</a>
+              <a class="navbar-brand" href="">Star Wars</a>
               <ul className="nav navbar-nav navbar-right">
                 <button type="button" className="btn btn-danger navbar-btn" onClick={this.onLogOut}>Log out</button>
               </ul>
