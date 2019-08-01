@@ -45,7 +45,7 @@ class Login extends Component {
       <div className="wrapper">
          <div className="panel-parent">
           <div className="panel-body panel-padding">
-            <img src={process.env.PUBLIC_URL + '/starwars.png'} alt="Star Wars Logo" class="star-wars-logo"/>
+            <img src={process.env.PUBLIC_URL + '/starwars.png'} alt="Star Wars Logo" className="star-wars-logo"/>
             <h5 className="login-info"> Please use swapi's star wars character credential to login.</h5>
             <form>
               <div className="form-group">
