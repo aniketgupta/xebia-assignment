@@ -57,7 +57,7 @@ class PlanetSearch extends Component {
         <header>
           <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
-              <a class="navbar-brand" href="">Star Wars</a>
+              <a className="navbar-brand" href="">Star Wars</a>
               <ul className="nav navbar-nav navbar-right">
                 <button type="button" className="btn btn-danger navbar-btn" onClick={this.onLogOut}>Log out</button>
               </ul>
@@ -79,9 +79,9 @@ class PlanetSearch extends Component {
             <div className={"modal " + (this.state.isOpen ? "show" : "hide")} tabIndex="-1" role="dialog">
               <div className="modal-dialog" role="document">
                 <div className="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Planet Information</h5>
-                    <button type="button" class="close" onClick={this.closeModal} data-dismiss="modal" aria-label="Close">
+                  <div className="modal-header">
+                    <h5 className="modal-title">Planet Information</h5>
+                    <button type="button" className="close" onClick={this.closeModal} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
